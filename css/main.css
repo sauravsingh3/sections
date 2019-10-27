@@ -37,5 +37,17 @@ h2 {
 img {
   display: block;
   width: 100%;
+}
 
+.btn {
+  border: 2px solid #333;
+  border-radius: 6px;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: .5em;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #666;
 }
