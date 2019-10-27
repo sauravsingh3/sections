@@ -24,3 +24,18 @@ div {
   max-width: 25em;
   vertical-align: middle;
 }
+
+section {
+  text-align: center;
+  padding: 2em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+
+}
