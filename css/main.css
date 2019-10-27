@@ -2,26 +2,25 @@ html {
   background-color: #eee9de;
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
-  text-align: left;
+  box-sizing: border-box;
 }
 
-.visitkhufu {
-  margin: 1.5rem;
-  padding: 1em;
-  color:  #333;
-  border-radius: 4px;
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
   text-align: left;
 }
 
 div {
-  width: 100px;
-  border: .2em solid #333;
+  display: inline-block;
+  text-align: left;
   padding: 1em;
-  margin: 1.5rem;
-  text-align: center;
-}
-
-img {
-  width: 25em
-
+  max-width: 25em;
+  vertical-align: middle;
 }
